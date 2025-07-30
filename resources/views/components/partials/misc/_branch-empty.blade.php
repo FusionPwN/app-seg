@@ -1,0 +1,1 @@
+<div {{ $attributes->class(['tree-branch tree-branch-empty']) }}></div>

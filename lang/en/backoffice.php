@@ -1,0 +1,72 @@
+<?php
+
+return [
+	'global' => [
+		'dashboard' => 'Dashboard',
+		'clients' => 'Clientes',
+		'leads' => 'Leads',
+		'users' => 'Utilizadores',
+		'created_at' => "Criado a :date",
+		'updated_at' => "Atualizado a :date",
+		'search' => 'Pesquisar',
+		'contacts' => 'Contatos',
+		'created_updated_at' => 'Datas',
+		'info' => 'Informação geral',
+		'description' => 'Descrição',
+		'no-description' => 'Sem descrição para apresentar',
+		'edit' => 'Editar',
+		'delete' => 'Eliminar',
+		'back' => 'Voltar',
+		'city' => 'Cidade',
+		'status' => 'Estado',
+		'services' => 'Serviços',
+		'address' => 'Morada',
+		'floor' => 'Andar',
+		'door' => 'Porta',
+		'postal_code' => 'Código postal',
+		'district' => 'Distrito',
+		'county' => 'Localidade',
+		'phone' => 'Telefone',
+		'receiver_name' => 'Nome interlocutor',
+		'receiver_contact' => 'Contato interlocutor',
+		'receiver_relation' => 'Relação interlocutor',
+		'sections' => 'Secções',
+		'creation-mode' => 'Modo criação',
+		'sort-mode' => 'Modo ordenação',
+		'close' => 'Fechar',
+		'save' => 'Gravar',
+		'save-then-close' => 'Gravar e fechar',
+		'client' => 'Cliente',
+		'select-an-option' => 'Selecione uma opção',
+		'name' => 'Nome',
+		'email' => 'Email',
+		'no-data' => 'Sem dados',
+	],
+	'clients' => [
+		'create' => 'Novo cliente',
+		'edit-target' => 'Editar cliente :target',
+		'name-number' => 'Nome / ID',
+	],
+	'leads' => [
+		'create' => 'Nova lead',
+		'edit-target' => 'Editar lead :target',
+		'name-number' => 'Nome / ID',
+		'client-name' => 'Cliente',
+		'status' => [
+			'open' => 'Aberto',
+			'closed' => 'Fechado',
+		]
+	],
+	'services' => [
+		'create' => 'Novo serviço',
+		'edit-target' => 'Editar serviço :target',
+		'address-number' => 'Morada / ID'
+	],
+	'sections' => [
+		'create' => 'Nova secção',
+		'edit-target' => 'Editar secção :target',
+	],
+	'users' => [
+		'create' => 'Novo utilizador',
+	],
+];

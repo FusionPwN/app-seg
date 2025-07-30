@@ -1,0 +1,13 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-icons/font/bootstrap-icons.min.css';
+
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+@import 'select2';
+$s2bs5-border-color: $border-color; // FIX BOOTSTRAP 5.3
+@import 'select2-bootstrap-5-theme/src/include-all';
+@import 'spotlight.js/dist/css/spotlight.min.css';
