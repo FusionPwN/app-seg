@@ -79,7 +79,7 @@ class Service extends Model
 
 	public function media()
 	{
-		return $this->morphToMany(Upload::class, 'model', 'model_uploads')->withPivot('default')->withTimestamps();;
+		return $this->morphToMany(Upload::class, 'model', 'model_uploads')->withPivot('default')->withTimestamps();
 	}
 
 	public function defaultMedia()
